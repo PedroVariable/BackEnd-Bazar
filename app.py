@@ -41,5 +41,3 @@ def add_sale():
 def get_sales():
     return jsonify(sales)
 
-if __name__ == '__main__':
-    app.run(port=5000)
